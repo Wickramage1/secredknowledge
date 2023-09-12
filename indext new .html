@@ -10,10 +10,25 @@
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-  .bg-image {
+ }
+
+.bg-image {
+  /* The image used */
+  background-image: url("photographer.jpg");
   
-  background-image: url("download (15).jfif");
-  }
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
   a {
   text-decoration: none;
   display: inline-block;
